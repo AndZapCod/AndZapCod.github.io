@@ -3,10 +3,12 @@ layout: single
 title: Starting Point Meow Write-up
 date: 2022-02-23
 categories: [Hack The Box, CTF] 
-tags: [Linux, Account Misconfiguration]
+tags: [Linux, Account Misconfiguration, SSH]
 excerpt: "Hack The Box Starting point machine tier 0 Meow my step-by-step solution"
 toc: true
 toc_sticky: true
+sidebar:
+    nav: "starting_point"
 ---
 
 ![logo](/assets/img/htb/logo-htb.svg){: width="80%"}![meow-logo](/assets/img/htb/starting-point/meow/61b5837dfdfe1fb1ca3750cf2712da44.png){: width="20%"}
@@ -61,8 +63,8 @@ Nmap done: 1 IP address (1 host up) scanned in 21.71 seconds
 ```
 
 **Flags:**\\
-`-p` Specify the port number that will be scaned in this case 23\\
-`-sC` Will run the default scripts used by nmap to detect posible weaknesses\\
+`-p` Specify the port number that will be scanned in this case 23\\
+`-sC` Will run the default scripts used by Nmap to detect possible weaknesses\\
 `-sV` Will scan in order to get information about versions of the services
 {: .notice }
 

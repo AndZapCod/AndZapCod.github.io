@@ -5,3 +5,11 @@ main:
     url: /categories/
   - title: "Tags"
     url: /tags/
+
+starting_point:
+  - title: "Starting Point Tier 0"
+    children:
+      - title: "Meow"
+        url: /HTB-Starting-Point-Meow/
+      - title: "Fawn"
+        url: /HTB-Starting-Point-Fawn/
