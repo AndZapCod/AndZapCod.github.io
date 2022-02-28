@@ -13,3 +13,5 @@ starting_point:
         url: /HTB-Starting-Point-Meow/
       - title: "Fawn"
         url: /HTB-Starting-Point-Fawn/
+      - title: "Dancing"
+        url: /HTB-Starting-Point-Dancing/
