@@ -15,3 +15,7 @@ starting_point:
         url: /HTB-Starting-Point-Fawn/
       - title: "Dancing"
         url: /HTB-Starting-Point-Dancing/
+  - title: "Starting Point Tier 1"
+    children:
+      - title: "Appointment"
+        url: /HTB-Starting-Point-Appointment/
