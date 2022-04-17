@@ -288,10 +288,11 @@ defaults:
       comments: false # true
       share: true
       related: true
-
-
-collections:
-  research:
-    output: true
-    permalink: /:collection/:path
-  
+  # publications
+  - scope:
+      path: "publications"
+    values:
+      layout: splash
+      read_time: false
+      share: true
+      related: true
